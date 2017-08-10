@@ -1,0 +1,56 @@
+PlayerID,PlayerName,MatchesP,Won,Lost,No. of wins(last 9 matches),NR,Specification,fitness
+1,Jubair Hossain,1,1,0,1,0,BOW,1
+2,Mohammad Rafique,1,1,0,0,0,BOW,1
+3,Nazmus Sadat,1,1,0,0,0,BOW,1
+4,Robiul Islam,1,1,0,0,0,BOW,1
+5,Shahriar Nafees,1,1,0,0,0,BAT,1
+6,Sabbir Rahman,26,11,14,9,1,BAT,0.946153846
+7,Taskin Ahmed,13,6,5,6,2,BOW,0.945054945
+8,Al-Amin Hossain,25,10,13,8,2,BOW,0.942222222
+9,Soumya Sarkar,19,8,10,8,1,BAT,0.941520468
+10,Mashrafe Mortaza,49,18,30,9,1,BOW,0.93877551
+11,Mushfiqur Rahim,57,20,35,9,2,WC,0.938596491
+12,Mahmudullah,53,17,34,9,2,ALL,0.935849057
+13,Nurul Hasan,6,4,2,4,0,WC,0.933333333
+14,Shakib Al Hasan,54,18,35,8,1,ALL,0.927983539
+15,Mustafizur Rahman,13,6,7,6,0,BOW,0.923076923
+16,Tamim Iqbal,52,17,33,7,2,BAT,0.920673077
+17,Mohammad Mithun,12,4,6,4,2,WC,0.9
+18,Nasir Hossain,31,11,19,3,1,ALL,0.846774194
+19,Arafat Sunny,10,3,7,3,0,BOW,0.825
+20,Shuvagata Hom,5,2,3,2,0,ALL,0.8
+21,Abu Hider,5,1,3,1,1,BOW,0.7
+22,Liton Das,3,1,2,1,0,WC,0.666666667
+23,Anamul Haque,13,3,9,1,1,WC,0.653846154
+24,Elias Sunny,7,4,3,0,0,BOW,0.571428571
+25,Abul Hasan,4,2,2,0,0,BOW,0.5
+26,Nazmul Hossain,4,2,2,0,0,BOW,0.5
+27,Alok Kapali,7,3,4,0,0,ALL,0.428571429
+28,Farhad Reza,13,5,8,0,0,ALL,0.384615385
+29,Abdur Razzak,34,11,22,0,1,BOW,0.352941176
+30,Nadif Chowdhury,3,1,2,0,0,BAT,0.333333333
+31,Ziaur Rahman,14,4,10,0,0,ALL,0.285714286
+32,Nazimuddin,7,2,5,0,0,BAT,0.285714286
+33,Aftab Ahmed,11,3,8,0,0,BAT,0.272727273
+34,Mohammad Ashraful,23,6,17,0,0,BAT,0.260869565
+35,Syed Rasel,8,2,6,0,0,BOW,0.25
+36,Shamsur Rahman,9,1,7,0,1,BAT,0.222222222
+37,Shafiul Islam,11,2,9,0,0,BOW,0.181818182
+38,Rubel Hossain,11,1,9,0,1,BOW,0.181818182
+39,Mominul Haque,6,1,5,0,0,BAT,0.166666667
+40,Shahadat Hossain,6,1,5,0,0,BOW,0.166666667
+41,Junaid Siddique,7,1,6,0,0,BAT,0.142857143
+42,Imrul Kayes,8,1,7,0,0,BAT,0.125
+43,Naeem Islam,10,1,9,0,0,ALL,0.1
+44,Sohag Gazi,10,1,9,0,0,BOW,0.1
+45,Dhiman Ghosh,1,0,1,0,0,WC,0
+46,Jahurul Islam,3,0,3,0,0,WC,0
+47,Mehrab Hossain jnr,2,0,2,0,0,ALL,0
+48,Mohammad Shahid,1,0,1,0,0,BOW,0
+49,Mosaddek Hossain,1,0,1,0,0,ALL,0
+50,Muktar Ali,1,0,1,0,0,ALL,0
+51,Raqibul Hasan,5,0,5,0,0,BAT,0
+52,Rony Talukdar,1,0,1,0,0,BAT,0
+53,Sajedul Islam,1,0,1,0,0,BOW,0
+54,Saqlain Sajib,1,0,1,0,0,BOW,0
+55,Suhrawadi Shuvo,1,0,1,0,0,ALL,0
