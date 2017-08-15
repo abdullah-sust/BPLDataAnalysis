@@ -99,7 +99,7 @@ for col in data:
 
 clf = LinearRegression()
 clf.fit(trainingData, trainingTarget)
-print("LinearRegression")
+print('\x1b[6;30;42m'+"LinearRegression"+'\x1b[0m')
 
 predictionData = []
 predictionTarget = []
@@ -195,34 +195,27 @@ for col in data:
     pData.append(t)
 
 print(clf.predict(predictionData))
-print("Mean squared error: %.2f" % np.mean((clf.predict(predictionData) - predictionTarget) ** 2))
-print('Variance score: %.2f' % clf.score(predictionData, predictionTarget))
+print('\x1b[6;30;42m'+"Mean squared error:"+'\x1b[0m'+" %.2f" % np.mean((clf.predict(predictionData) - predictionTarget) ** 2))
+print('\x1b[6;30;42m'+'Variance score:'+'\x1b[0m'+' %.2f' % clf.score(predictionData, predictionTarget))
 
 # The coefficients
-print('Coefficients: \n', clf.coef_)
+print('\x1b[6;30;42m'+'Coefficients: '+'\x1b[0m'+'\n', clf.coef_)
 Y=predictionTarget
 
-# pData = [(1,2,3)]
-# t=()
-# t+=(7,)
-# t+=(8,)
-# t+=(9.2,)
-# pData.append((4,5.5,6))
-# pData.append(t)
-# x=[1,2,3]
-# print(pData)
+# for xe, ye in zip(Y,pData):
+# #     plt.scatter([xe] * ye, ye)
+#     plt.scatter([xe] * len(ye), ye)
+# plt.scatter(predictionTarget, clf.predict(predictionData))
+# plt.plot( clf.predict(predictionData), predictionTarget, color='blue', linewidth=3)
 
-for xe, ye in zip(Y,pData):
-#     plt.scatter([xe] * ye, ye)
-    plt.scatter([xe] * len(ye), ye)
-plt.plot(pData, Y , color='blue', linewidth=3)
-
-# plt.xticks(())
-# plt.yticks(())
-plt.xticks([1, 200])
-plt.axes().set_xticklabels(['cat1', 'cat2'])
-plt.xlabel('x', fontsize=13)
-plt.ylabel('y', fontsize=13)
+plt.scatter(predictionTarget, clf.predict(predictionData))
+plt.plot(predictionTarget, clf.predict(predictionData), color='blue', linewidth=3)
+plt.xticks(())
+plt.yticks(())
+# plt.xticks([1, 200])
+# plt.axes().set_xticklabels(['cat1', 'cat2'])
+plt.xlabel('predictionData', fontsize=13)
+plt.ylabel('clf.predict(predictionData)', fontsize=13)
 plt.show()
 
 #SVM start
